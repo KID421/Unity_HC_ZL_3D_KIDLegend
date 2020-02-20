@@ -16,6 +16,7 @@ public class Item : MonoBehaviour
 
     private void Start()
     {
+        Physics.IgnoreLayerCollision(10, 10, false);    // 金幣要互相碰撞
         aud = GetComponent<AudioSource>();
         player = GameObject.Find("鼠王").transform;
 

@@ -102,6 +102,7 @@ public class Enemy : MonoBehaviour
         ani.SetBool("死亡開關", true);       // 死亡動畫
         nav.isStopped = true;               // 代理器 停止
         Destroy(this);                      // Destroy(GetComponent<元件>()); 刪除元件
+        Destroy(gameObject, 0.3f);
         CreateCoin();
     }
 

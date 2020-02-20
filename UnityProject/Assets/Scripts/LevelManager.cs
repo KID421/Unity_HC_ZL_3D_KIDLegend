@@ -68,8 +68,16 @@ public class LevelManager : MonoBehaviour
         }
 
         yield return new WaitForSeconds(0.2f);
-        // 載入下一關
-        SceneManager.LoadScene("關卡 2");
+
+        if (SceneManager.GetActiveScene().name.Contains("魔王"))
+        {
+            SceneManager.LoadScene(0);
+        }
+        else
+        {
+            int index = SceneManager.GetActiveScene().buildIndex;
+            SceneManager.LoadScene(++index);
+        }
     }
 
     /// <summary>

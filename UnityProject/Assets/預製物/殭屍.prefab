@@ -634,7 +634,7 @@ GameObject:
   - component: {fileID: 7148190243218856075}
   - component: {fileID: 7148190243218857845}
   - component: {fileID: 7148190243218856074}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: "\u6BAD\u5C4D"
   m_TagString: "\u6575\u4EBA"
   m_Icon: {fileID: 0}
@@ -742,6 +742,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   data: {fileID: 11400000, guid: 0b1ed86ddf8c205478174707b7c95bfb, type: 2}
+  coin: {fileID: 3079196811229659554, guid: 7506c91e82ef30b43a13a35c7472d065, type: 3}
 --- !u!1 &7148190242551833931
 GameObject:
   m_ObjectHideFlags: 0
@@ -1214,6 +1215,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2322631484227348373, guid: 9de4aa511243e074fbef41805fb39ca3,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.8784314
+      objectReference: {fileID: 0}
+    - target: {fileID: 2322631484227348373, guid: 9de4aa511243e074fbef41805fb39ca3,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.078719355
+      objectReference: {fileID: 0}
+    - target: {fileID: 2322631484227348373, guid: 9de4aa511243e074fbef41805fb39ca3,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.06274507
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9de4aa511243e074fbef41805fb39ca3, type: 3}

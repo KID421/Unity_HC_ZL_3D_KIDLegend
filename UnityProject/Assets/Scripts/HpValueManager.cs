@@ -56,6 +56,8 @@ public class HpValueManager : MonoBehaviour
             hpText.color += new Color(0, 0, 0, 0.05f);  // 遞增透明度
             hpRect.anchoredPosition += Vector2.up * 5;  // 位置遞增 5
             yield return new WaitForSeconds(0.01f);     // 等待
+
+            print(1);
         }
 
         hpText.color = new Color(0, 0, 0, 0);            // 還原透明度
