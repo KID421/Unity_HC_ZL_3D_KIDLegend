@@ -263,7 +263,7 @@ PlayerSettings:
   AndroidTargetArchitectures: 3
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: D:/KID/Unity_HC_ZL_3D_KIDLegend/user.keystore
+  AndroidKeystoreName: C:/Users/appedu/Desktop/Unity_HC_ZL_3D_KIDLegend/user.keystore
   AndroidKeyaliasName: kid
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0
